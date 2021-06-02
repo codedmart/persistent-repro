@@ -1,0 +1,12 @@
+LocationCapabilities
+  Id Text
+  bio Text
+
+LocationCapabilitiesPrintingProcess
+  locationCapabilitiesId LocationCapabilitiesId
+
+LocationCapabilitiesPrintingFinish
+  locationCapabilitiesId LocationCapabilitiesId
+
+LocationCapabilitiesSubstrate
+  locationCapabilitiesId LocationCapabilitiesId

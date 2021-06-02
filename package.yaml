@@ -1,0 +1,36 @@
+name:                persistent-repro
+version:             0.1.0.0
+homepage:            https://github.com/githubuser/persistent-repro#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2021 Author name here
+category:            Web
+
+default-extensions:
+  - DataKinds
+  - DerivingStrategies
+  - FlexibleInstances
+  - GADTs
+  - GeneralizedNewtypeDeriving
+  - MultiParamTypeClasses
+  - StandaloneDeriving
+  - TemplateHaskell
+  - TypeFamilies
+  - UndecidableInstances
+  - RecordWildCards
+  - OverloadedStrings
+
+executables:
+  persistent-repro:
+    main: Main.hs
+    source-dirs: src
+    dependencies:
+      - base
+      - directory
+      - monad-logger
+      - optparse-applicative
+      - persistent
+      - persistent-postgresql
+      - text
+      - transformers
